@@ -1,0 +1,66 @@
+Ghi âm của tôi 1.wav Xin chào
+Ghi âm của tôi 2.wav Xin chào
+Ghi âm của tôi 3.wav Chào bạn
+Ghi âm của tôi 4.wav Chào bạn
+Ghi âm của tôi 5.wav Chào mừng bạn
+Ghi âm của tôi 6.wav Chào mừng bạn
+Ghi âm của tôi 7.wav chào buổi sáng
+Ghi âm của tôi 8.wav chào buổi sáng
+Ghi âm của tôi 9.wav Chào buổi chiều
+Ghi âm của tôi 10.wav Chào buổi chiều
+Ghi âm của tôi 11.wav Hello
+Ghi âm của tôi 12.wav Hello
+Ghi âm của tôi 13.wav Good morning
+Ghi âm của tôi 14.wav Good morning
+Ghi âm của tôi 15.wav chào
+Ghi âm của tôi 16.wav cao cấp
+Ghi âm của tôi 18.wav chào robot
+Ghi âm của tôi 19.wav chào robot
+Ghi âm của tôi 20.wav nàng robot
+Ghi âm của tôi 21.wav nay robot
+Ghi âm của tôi 22.wav Rất vui được làm quen
+Ghi âm của tôi 23.wav Rất vui được làm quen
+Ghi âm của tôi 24.wav dẫn tôi đi chơi nào
+Ghi âm của tôi 25.wav chậm tôi đi chơi nào
+Ghi âm của tôi 26.wav dẫn tôi đi tham quan nào
+Ghi âm của tôi 27.wav dẫn tôi đi tham quan nào
+Ghi âm của tôi 28.wav đưa tôi đến nhà vệ sinh
+Ghi âm của tôi 29.wav đưa tôi đến nhà vệ sinh
+Ghi âm của tôi 30.wav đưa tôi đến lối ra
+Ghi âm của tôi 31.wav đưa tôi đến lối ra
+Ghi âm của tôi 32.wav chỉ đường cho tôi đến nhà vệ sinh nào
+Ghi âm của tôi 33.wav chỉ đường cho tôi đến nhà vệ sinh nữa
+Ghi âm của tôi 34.wav cho tôi đi một vòng trong nhà
+Ghi âm của tôi 35.wav đưa tôi đi một vòng xem nào
+Ghi âm của tôi 36.wav bạn có thể dẫn tôi đi qua chỗ này được không
+Ghi âm của tôi 37.wav bạn có thể dẫn tôi đi qua chỗ này được không
+Ghi âm của tôi 38.wav đưa tôi đi tới khác chỗ giải thưởng
+Ghi âm của tôi 39.wav đưa tôi đi tới chỗ khác ở các giải thưởng
+Ghi âm của tôi 40.wav hãy đưa tôi đi tham quan nơi này
+Ghi âm của tôi 41.wav hãy đưa tôi đi tham quan chỗ này
+Ghi âm của tôi 42.wav Tôi muốn đi qua nơi này
+Ghi âm của tôi 43.wav Tôi muốn đi qua nơi này
+Ghi âm của tôi 44.wav dẫn đường cho tôi đi
+Ghi âm của tôi 45.wav lô tô đi tham quan nào
+Ghi âm của tôi 46.wav đưa tôi đi tham quan nào
+Ghi âm của tôi 47.wav dẫn tôi đi một vòng xem sao
+Ghi âm của tôi 48.wav dẫn tôi đi một vòng xem sao
+Ghi âm của tôi 49.wav đi chơi một chút thì sao nhỉ
+Ghi âm của tôi 50.wav đi chơi một chút thì sao nhỉ
+Ghi âm của tôi 51.wav hướng dẫn cho tôi nè
+Ghi âm của tôi 52.wav dẫn đường cho tôi đi
+Ghi âm của tôi 53.wav dẫn đường cho tôi đi
+Ghi âm của tôi 54.wav cho tôi đi qua đây nào
+Ghi âm của tôi 55.wav đưa tôi đi tới tượng Bác Hồ
+Ghi âm của tôi 56.wav dẫn mình đi tới khu trưng bày huân chương của Đại học Quốc gia Hà Nội xem
+Ghi âm của tôi 57.wav Nhà vệ sinh ở đâu
+Ghi âm của tôi 57.wav Nhà vệ sinh ở đâu
+Ghi âm của tôi 58.wav hãy giải thích cho tôi về bức ảnh này được không
+Ghi âm của tôi 59.wav bạn có thể giải thích cho tôi về bức ảnh này được không
+Ghi âm của tôi 60.wav hãy giải thích cho tôi về vấn đề này được
+Ghi âm của tôi 61.wav giải thích cho tôi bức ảnh này được không
+Ghi âm của tôi 62.wav bạn có thể giải thích cho tôi về bức ảnh này được không
+Ghi âm của tôi 63.wav hãy giải thích cho tôi về bức ảnh này được không
+Ghi âm của tôi 64.wav bạn có thể giải thích cho tôi những bức ảnh này được không
+Ghi âm của tôi 65.wav bạn có thể giải thích cho tôi về bức ảnh này được không
+Ghi âm của tôi 66.wav bạn có thể giải thích cho tôi về bức ảnh này được không
