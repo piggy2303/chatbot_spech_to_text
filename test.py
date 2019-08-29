@@ -1,15 +1,13 @@
-import speech_recognition as sr
+# import os, sys
 
-r = sr.Recognizer()
+# # Open a file
+# path = "./DATA/dong/chat/"
+# dirs = os.listdir(path)
 
-with open("result_minhanh_greeting.txt", "a") as text_file:
-    for i in range(1, 49):
-        voice_file = "Ghi âm của tôi " + str(i) + ".wav"
-        with sr.WavFile("./DATA/minhanh/greeting/" + voice_file) as source:
-            audio = r.record(source)
-            try:
-                text_voice = r.recognize_google(audio, None, "vi-VN" "en-US")
-                text_file.write(text_voice.lower() + "\n")
-                print(voice_file + " " + text_voice)
-            except LookupError:
-                print("Could not understand audio")
+# # This would print all the files and directories
+# for file in dirs:
+#     print(file)
+
+from pydub import AudioSegment
+
+audio = AudioSegment.from_file('./test1.m4a', format='m4a')
