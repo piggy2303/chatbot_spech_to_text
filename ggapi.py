@@ -1,60 +1,62 @@
 import speech_recognition as sr
 import os, sys
+import csv
 
-# # Open a file
-# path = "./DATA/dong/chat/"
-# dirs = os.listdir(path)
 
-# # This would print all the files and directories
-# for file in dirs:
-#     print(file)
+def ggapi(people, intent):
+    r = sr.Recognizer()
 
-r = sr.Recognizer()
+    with open("result_" + people + "_" + intent + ".txt", "a") as text_file:
 
-with open("result_duynam_greeting.txt", "a") as text_file:
+        path = "./DATA/" + people + "/" + intent + "/"
+        dirs = os.listdir(path)
+        for file_name in dirs:
+            with sr.WavFile(path + file_name) as source:
+                audio = r.record(source)
+                try:
+                    text_voice = r.recognize_google(audio, None, "vi-VN"
+                                                    "en-US")
+                    text_file.write(text_voice.lower() + "\n")
+                    print(path + file_name + " " + text_voice)
+                except sr.UnknownValueError:
+                    print(
+                        "Google Speech Recognition could not understand audio")
+                except LookupError:
+                    print("Could not understand audio")
 
-    path = "./DATA/duynam/greeting/"
-    dirs = os.listdir(path)
-    for file_name in dirs:
-        with sr.WavFile(path + file_name) as source:
-            audio = r.record(source)
-            try:
-                text_voice = r.recognize_google(audio, None, "vi-VN" "en-US")
-                text_file.write(text_voice.lower() + "\n")
-                print(path + file_name + " " + text_voice)
-            except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio")
-            except LookupError:
-                print("Could not understand audio")
 
-with open("result_duynam_introduce.txt", "a") as text_file:
+def merger_file():
+    with open('intent.csv', mode='w') as result_file:
+        result_writer = csv.writer(result_file,
+                                   delimiter=',',
+                                   quotechar='"',
+                                   quoting=csv.QUOTE_MINIMAL)
 
-    path = "./DATA/duynam/introduce/"
-    dirs = os.listdir(path)
-    for file_name in dirs:
-        with sr.WavFile(path + file_name) as source:
-            audio = r.record(source)
-            try:
-                text_voice = r.recognize_google(audio, None, "vi-VN" "en-US")
-                text_file.write(text_voice.lower() + "\n")
-                print(path + file_name + " " + text_voice)
-            except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio")
-            except LookupError:
-                print("Could not understand audio")
+        path = './result/'
+        dirs = os.listdir(path)
 
-with open("result_duynam_lead_way.txt", "a") as text_file:
+        for file_text_read in dirs:
+            file_intent = file_text_read.split("_")[2].split(".")[0]
+            print(file_intent)
 
-    path = "./DATA/duynam/lead_way/"
-    dirs = os.listdir(path)
-    for file_name in dirs:
-        with sr.WavFile(path + file_name) as source:
-            audio = r.record(source)
-            try:
-                text_voice = r.recognize_google(audio, None, "vi-VN" "en-US")
-                text_file.write(text_voice.lower() + "\n")
-                print(path + file_name + " " + text_voice)
-            except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio")
-            except LookupError:
-                print("Could not understand audio")
+            intent_col = file_intent
+
+            if file_intent == "leadway":
+                intent_col = "command_lead_way"
+
+            if file_intent == "askwhat":
+                intent_col = "ask_what"
+
+            if file_intent == "askwho":
+                intent_col = "ask_who"
+
+            if file_intent == "askwhere":
+                intent_col = "ask_where"
+
+            print(path + file_text_read)
+            text_voice_people = open(path + file_text_read, mode='r')
+            for line in text_voice_people:
+                result_writer.writerow([intent_col, line.lower().rstrip()])
+
+
+merger_file()
