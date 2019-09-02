@@ -9,6 +9,7 @@ def ggapi(people, intent):
     with open("result_" + people + "_" + intent + ".txt", "a") as text_file:
 
         path = "./DATA/" + people + "/" + intent + "/"
+        print(path)
         dirs = os.listdir(path)
         for file_name in dirs:
             with sr.WavFile(path + file_name) as source:
@@ -26,13 +27,13 @@ def ggapi(people, intent):
 
 
 def merger_file():
-    with open('intent.csv', mode='w') as result_file:
+    with open('intent.csv', mode='a') as result_file:
         result_writer = csv.writer(result_file,
                                    delimiter=',',
                                    quotechar='"',
                                    quoting=csv.QUOTE_MINIMAL)
 
-        path = './result/'
+        path = './result/ngan/'
         dirs = os.listdir(path)
 
         for file_text_read in dirs:
@@ -58,5 +59,3 @@ def merger_file():
             for line in text_voice_people:
                 result_writer.writerow([intent_col, line.lower().rstrip()])
 
-
-merger_file()
